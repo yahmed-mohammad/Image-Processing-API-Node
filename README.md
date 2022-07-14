@@ -54,7 +54,7 @@ Invalid height error
 - Entry point is index.ts where an app is defined which listens to the port 3000 and use routes to expose apis.
 - routes/apis.ts contains all the routes/endpoint of our application
 - routes/models contains interfaces for data transfer
-- routes/utilities contains the validation of query parameters & a class having home page data
+- routes/utilities contains the validation of query parameters, a logger middleware which logs once url is visited & a class having home page data
 - file.ts contains a File class with file related functions
 - resizeImage.ts contains logic to process image using sharp
 

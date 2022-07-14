@@ -2,6 +2,7 @@ import express from 'express';
 import ValidateQuery from './utilities/validateQuery';
 import File from '../file';
 import HomePage from './utilities/homePage';
+import logger from './utilities/logger';
 
 const routes = express.Router();
 
@@ -9,7 +10,7 @@ const routes = express.Router();
  * Function to handle the Home Page Request
  */
 routes.get(
-    '/',
+    '/', logger,
     async (
         request: express.Request,
         response: express.Response
@@ -22,7 +23,7 @@ routes.get(
  * Function to handle the GET /image API requests
  */
 routes.get(
-    '/image',
+    '/image', logger,
     async (
         request: express.Request,
         response: express.Response
