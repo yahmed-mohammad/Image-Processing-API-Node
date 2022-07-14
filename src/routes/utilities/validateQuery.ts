@@ -18,7 +18,7 @@ export default class ValidateQuery {
             const filenames: string[] = await File.getFileNames();
             return `<p>Filename Query Parameter is not provided. Please use the filename ${filenames} in query parameter like below <ul>?filename=...&width=...&height=...</ul></p>`;
         }
-        if (query.width == undefined && query.height == undefined) {
+        if (this.isInValidData(query.width) && this.isInValidData(query.width)) {
             return null;
         }
         const width: number = parseInt(query.width as string);
