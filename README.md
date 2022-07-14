@@ -28,7 +28,7 @@ Will display welcome page with api information.
 
 #### Example 2
 http://localhost:3000/image?filename=tree
-Will display the original fjord image.
+Will display the original tree image.
 
 #### Example 3
 http://localhost:3000/image?filename=tree&width=400&height=400
@@ -40,11 +40,11 @@ http://localhost:3000/image?filename=grass&width=-200&height=200
 Invalid width error
 
 #### Example 5
-http://localhost:3000/api/images?filename=fjord&width=200
+http://localhost:3000/api/images?filename=grass&width=200
 Invalid height error
 
 ### Notes
-- Images are served from `images/actuall`. More can be copied to this directory
+- Images are served from `images/actual`. More can be copied to this directory
 - Image thumbs will be stored in `images/modified` and can be deleted
 - Please do not delete tree.jpg and grass.jpg, as all test cases are written keeping these two files in mind.
 
