@@ -57,4 +57,5 @@ Invalid height error
 - routes/utilities contains the validation of query parameters, a logger middleware which logs once url is visited & a class having home page data
 - file.ts contains a File class with file related functions
 - resizeImage.ts contains logic to process image using sharp
+- NOTE: Currently works only with .jpg images
 

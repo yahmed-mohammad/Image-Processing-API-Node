@@ -6,7 +6,7 @@ const logger = (
     next: () => void
 ): void => {
     const url=req.url;
-    console.log(`${url} was visited`);
+    console.log(`${url} was visited at ${new Date()}`);
     next();
 };
 
