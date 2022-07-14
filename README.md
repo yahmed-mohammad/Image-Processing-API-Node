@@ -1,3 +1,5 @@
+### NOTE: You may see commits from Yashmin Tabashum in this repository. It is because I used my partners laptop for developing the project and I forgot to change the username for my local repository. Hope you understand. Thanks you
+
 ### Scripts
 - Install: ```npm install```
 - Build: ```npm run build```
